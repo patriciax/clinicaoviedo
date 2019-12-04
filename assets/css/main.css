@@ -133,7 +133,7 @@ section{
   height: 15%;
   right: 10px;
   z-index: 999;
-  top: 63%;
+    top: 60%;
 }
 
 .main-title {
@@ -467,17 +467,17 @@ margin: 0;
   filter: brightness(0) invert(1);
 }
 
-.main-banner::after{
+/* .main-banner::after{
   background-image: url('../img/ondas.png');
   content: "";
   position: absolute;
   width: 100%;
   height: 364px;
   background-size: 100%;
-  bottom: -2px;
+  bottom: 0;
   background-repeat: no-repeat;
   z-index: 1;
-}
+} */
 
 .btn:not(:disabled):not(.disabled):hover {
   cursor: pointer;
