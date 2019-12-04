@@ -39,7 +39,7 @@ $('.main-testimonios__content').slick({
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 2,
-  dots: true,
+  dots: false,
   arrows: true,
   responsive: [{
       breakpoint: 1200,
