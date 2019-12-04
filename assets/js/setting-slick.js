@@ -53,8 +53,8 @@ $('.main-testimonios__content').slick({
     {
       breakpoint: 900,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
     },
     {
@@ -62,8 +62,7 @@ $('.main-testimonios__content').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: false,
-        autoplay: true,
+   
         autoplaySpeed: 1000
       }
     }
