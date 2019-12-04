@@ -67,15 +67,17 @@ section{
 
 .mask {
   position: absolute;
-  background: red;
+  background: #ff000038;
   right: 0;
   left: 0;
   height: 100vh;
-  opacity: .2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .main-banner__text {
-  position: absolute;
+  /* position: absolute; */
   top: 40%;
   color: #fff;
   padding-left: 8rem;
@@ -90,8 +92,8 @@ section{
 .slick-dots {
   display: flex;
   text-align: start;
-  padding-left: 5rem;
-  bottom: 21.5rem;
+  padding-left: 4rem;
+  bottom: 22rem;
   flex-direction: column;
 }
 
@@ -122,7 +124,7 @@ section{
 
 .wave {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   width: 101%;
   z-index: 1;
 }
