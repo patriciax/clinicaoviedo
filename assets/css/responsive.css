@@ -35,6 +35,19 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+
+  .masonry-with-columns {
+    display: initial;
+  }
+
+
+  .masonry-with-columns .service:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .masonry-with-columns .service:nth-child(5) {
+    margin-top: 0;
+  }
   .main-banner__text {
     top: 40%;
     padding-left: 12px;
