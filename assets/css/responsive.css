@@ -12,7 +12,7 @@
     visibility: hidden;
     background-color: #fff;
     transition-timing-function: ease-in-out;
-    transition-duration: .3s;
+    transition-duration: 0.3s;
     transition-property: left, visibility;
   }
 
@@ -22,45 +22,46 @@
   }
 }
 
-
 @media (min-width: 992px) and (max-width: 1199px) {
-
-
 }
 
-@media (min-width:1440px) and (max-width: 1199px) {
-
+@media (min-width: 1440px) and (max-width: 1199px) {
   .wave-m {
-
     top: 55%;
-}
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .wave-m {
-
     top: 56%;
-}
+  }
+  .main-banner__text {
+    width: 88%;
+  }
+  .hj {
+    box-shadow: none;
+    width: auto;
+  }
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
   .navbar-nav .nav-link {
     color: #bf2176;
-}
+  }
   section {
     padding: 10px 0 10px;
-}
+  }
   .wave-m {
     object-fit: contain;
-}
+  }
   .img-item {
     display: none;
   }
   .main-grid__content {
     display: grid;
     grid-template-columns: 1fr;
-}
-.content_img{ 
+  }
+  .content_img {
     display: none;
   }
   .main-footer_grid {
@@ -68,11 +69,10 @@
     grid-template-columns: 1fr;
     gap: 10px;
     color: #fff;
-}
+  }
   .masonry-with-columns .main-service__card {
-
     margin-bottom: 50px;
-}
+  }
   .hj {
     background: white;
     margin-left: 0;
@@ -81,11 +81,10 @@
     width: auto;
     border-radius: 10px;
     padding: 25px;
-}
+  }
   .masonry-with-columns {
     display: initial;
   }
-
 
   .masonry-with-columns .service:nth-child(3) {
     margin-top: 0;
@@ -98,30 +97,29 @@
     top: 40%;
     padding-left: 12px;
     width: 100%;
+  }
+  .main-banner__text h1 {
+    font-weight: bold;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+  .btn-content {
+    display: inline-grid;
+  }
+  .btn-custom {
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .navbar {
+    top: 1rem;
+    right: 1rem;
+    left: 1rem;
+    border-radius: 10px;
+  }
+  .main-brand {
+    display: inherit;
+  }
+  .navbar-brand img {
+    width: 50%;
+  }
 }
-.main-banner__text h1 {
-  font-weight: bold;
-  margin-bottom: 3rem;
-  font-size: 2rem;
-}
-.btn-content{
-  display: inline-grid; 
-}
-.btn-custom{
-  margin-bottom: 12px;
-  text-align: center;
-}
-.navbar {
-  top: 1rem;
-  right: 1rem;
-  left: 1rem;
-  border-radius: 10px;
-}
-.main-brand{
-  display: inherit;
-}
-.navbar-brand img {
-  width: 50%;
-}
-}
-
