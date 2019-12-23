@@ -556,7 +556,12 @@ margin: 0;
 
 
 
-
+.text-important{
+  color: #bf2176;
+  font-size: 1.3rem;
+  font-style: italic;
+  margin: 50px;
+}
 
 .navigation {
 	font-weight: 300;
@@ -588,6 +593,10 @@ margin: 0;
 	background: #f7f7f7c7;
 	border-radius: 5px;
 	margin-bottom: 5px;
+}
+.text-service{
+  color: #000;
+  font-weight: 700;
 }
 /* 
 *	Стили для заголовка меню 
