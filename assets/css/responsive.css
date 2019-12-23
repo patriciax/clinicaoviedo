@@ -45,6 +45,32 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .top-main-service {
+    margin-top: 100px!important;
+}
+  .text-important {
+
+    margin: 0;
+}
+  .main-title h3 {
+    font-size: 2rem;
+   
+}
+  .top-main {
+    margin-top: 116px;
+    margin-bottom: 0;
+}
+  .grid-about span {
+   
+    display: none;
+   
+}
+
+.grid-about {
+
+  display: initial!important;
+
+}
   .navbar-nav .nav-link {
     color: #bf2176;
   }
