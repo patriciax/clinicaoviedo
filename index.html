@@ -7,6 +7,8 @@
   <title>Clinica Oviedo</title>
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/css/slick.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
   <link href="assets/css/slick-theme.css" rel="stylesheet" />
   <link href="assets/css/font-awesome.css" rel="stylesheet" />
   <link href="assets/css/main.css" rel="stylesheet" />
@@ -64,8 +66,8 @@
     <div class="main-banner__content">
       <div class="main-banner__item">
         <div class="mask"> 
-        <div class="main-banner__text">
-          <h1>Especialistas en tratamiento laser en la piel</h1>
+        <div class="main-banner__text ">
+          <h1 class="animated fadeInDown wow">Especialistas en tratamiento laser en la piel</h1>
           <div class="btn-content">
             <a class="btn-custom" href=""><i class="fa fa-phone"></i> +56 978965089</a>
             <a class="btn-custom" href=""><i class="fa fa-comments"></i> info@cliniciaoviedo.cl</a>
@@ -80,7 +82,7 @@
       <div class="main-banner__item">
         <div class="mask"> 
         <div class="main-banner__text">
-          <h1>Especialistas en tratamiento laser en la piel</h1>
+          <h1 class="animated fadeInDown wow">Especialistas en tratamiento laser en la piel</h1>
           <div class="btn-content">
             <a class="btn-custom" href=""><i class="fa fa-phone"></i> +56 978965089</a>
             <a class="btn-custom" href=""><i class="fa fa-comments"></i> info@cliniciaoviedo.cl</a>
@@ -102,7 +104,7 @@
     <div class="about"></div>
     <div class="main-about__content container">
       <div class="main-title">
-        <h3>Ventajas<span>.</span></h3>
+        <h3 class="animated fadeInUp wow">Ventajas<span>.</span></h3>
       </div>
 
       <div class="main-description">
@@ -141,15 +143,15 @@
 <section class="main-service container">
   <div class="masonry-with-columns">
     <div class="service">
-      <div class="main-title">
-        <h3>Servicios<span>.</span></h3>
+      <div class="main-title  animated fadeInUp wow">
+        <h3 >Servicios<span>.</span></h3>
       </div>
       <a href="cirugia.html">
           <div class="main-service__card">
               <div class="main-mask__service">
                 <div class="main-service__title">
                   <p>Resultado estetico</p>
-                  <h3>Cirugia de lunares</h3>
+                  <h3 class=" animated fadeIn wow">Cirugia de lunares</h3>
                 </div>
                 <div class="hover">
                   <div class="overlay">
@@ -172,7 +174,7 @@
               <div class="main-mask__service">
                 <div class="main-service__title">
                   <p>Destruir</p>
-                  <h3>Laser Lipolisis</h3>
+                  <h3 class=" animated fadeIn wow">Laser Lipolisis</h3>
                 </div>
                 <div class="hover">
                   <div class="overlay">
@@ -196,7 +198,7 @@
               <div class="main-mask__service">
                 <div class="main-service__title">
                   <p>Gluteos firmes</p>
-                  <h3>Aumento de gluteos</h3>
+                  <h3 class=" animated fadeIn wow">Aumento de gluteos</h3>
                 </div>
                 <div class="hover">
                   <div class="overlay">
@@ -218,7 +220,7 @@
         <div class="main-mask__service">
           <div class="main-service__title">
             <p>Remover grasa</p>
-            <h3>Ginecomastia</h3>
+            <h3 class=" animated fadeIn wow">Ginecomastia</h3>
           </div>
           <div class="hover">
             <div class="overlay">
@@ -239,7 +241,7 @@
         <div class="main-mask__service">
           <div class="main-service__title">
             <p>Servicio</p>
-            <h3>Servicio mas quirurgico</h3>
+            <h3 class=" animated fadeIn wow">Servicio mas quirurgico</h3>
           </div>
           <div class="hover">
             <div class="overlay">
@@ -262,7 +264,7 @@
       <img class="wave-t" src="assets/img/wave.png" alt="">
   <div class="bg-testimonios">
     <div class="main-title">
-      <h3>Testimonios<span>.</span></h3>
+      <h3 class="animated fadeInUp wow">Testimonios<span>.</span></h3>
     </div>
     <div class="main-testimonio container">
       <div class="main-testimonios__content">
@@ -303,7 +305,7 @@
 
   <div class="footer-form container">
     <div class="main-title text-justify">
-      <h3>Contacto <span>.</span></h3>
+      <h3 class="animated fadeInUp wow">Contacto <span>.</span></h3>
     </div>
     <div class="row">
       <div class="col-lg-6 col-md-12">
@@ -387,10 +389,17 @@
   </footer>
 
   <script src="assets/js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/slick.min.js"></script>
   <script src="assets/js/setting-slick.js"></script>
   <script src="assets/js/main.js"></script>
+
+
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
