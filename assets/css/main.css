@@ -3,6 +3,9 @@ body {
   overflow-x: hidden;
   /* Prevent scroll on narrow devices */
 }
+html{
+  overflow-x: hidden;
+}
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -18,6 +21,7 @@ body {
 body {
   font-family: 'Open Sans', sans-serif;
   color: #3e3e3e;
+  overflow-x: hidden;
 }
 
 body :focus {
@@ -416,9 +420,15 @@ section{
 }
 
 .masonry-with-columns .hover:hover .overlay .head {
-  transform: translateY(0px);
+  /* transform: translateY(0px); */
   position: absolute;
   bottom: 50px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 }
 
 .masonry-with-columns .hover:hover .overlay hr {
@@ -536,7 +546,9 @@ margin: 0;
 .grid-about .title{
   display: flex;
     flex-direction: column;
-}
+}    display: flex;
+justify-content: center;
+align-items: center;
 
 .grid-about .title h3{
   font-weight: bold;

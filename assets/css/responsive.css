@@ -45,6 +45,13 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .wave-m{
+    display: none;
+  }
+  .about {
+    background-image: none;
+
+}
   .top-main-service {
     margin-top: 100px!important;
 }
