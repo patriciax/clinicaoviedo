@@ -1,11 +1,10 @@
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
-    top: 56px;
-    /* Height of navbar */
+    top: 74px;
     bottom: 0;
     left: 100%;
-    width: 100%;
+    width: 90%;
     padding-right: 1rem;
     padding-left: 1rem;
     overflow-y: auto;
@@ -17,7 +16,7 @@
   }
 
   .offcanvas-collapse.open {
-    left: 0;
+    left: 17px;
     visibility: visible;
   }
 }
@@ -45,6 +44,15 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .bg-testimonios {
+    padding: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+  .masonry-with-columns .service:nth-child(1) {
+ 
+    margin-top: 0;
+}
   .wave-m{
     display: none;
   }
@@ -61,6 +69,7 @@
 }
   .main-title h3 {
     font-size: 2rem;
+    text-align: center;
    
 }
   .top-main {
