@@ -17,14 +17,10 @@
       <nav class="navbar navbar-expand-md fixed-top navbar-fixed-js">
         <div class="container">
           <div class="main-brand">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
               <img id="iso" src="assets/img/clinica oviedo-01.png" />
             </a>
-            <button
-              class="navbar-toggler p-0 border-0"
-              data-toggle="offcanvas"
-              type="button"
-            >
+            <button class="navbar-toggler p-0 border-0" data-toggle="offcanvas" type="button">
               <span class="navbar-toggler-icon fa fa-bars"></span>
             </button>
           </div>
@@ -36,16 +32,26 @@
               <li class="nav-item">
                 <a class="nav-link" href="about.html">Quienes Somos</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Servicios
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="cirugia.html">Cirugia de lunares</a>
+                    <a class="dropdown-item" href="Laserlipolisis.html">Laser Lipolisis</a>
+                    <a class="dropdown-item" href="gluteos.html">Aumento de gluteos</a>
+                </li>
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Servicios</a>
-              </li>
+              </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonios</a>
+                <a class="nav-link" href="#testimonios">Testimonios</a>
               </li>
-
+  
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
+  
             </ul>
           </div>
         </div>

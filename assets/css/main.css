@@ -3,6 +3,9 @@ body {
   overflow-x: hidden;
   /* Prevent scroll on narrow devices */
 }
+body {
+  scroll-behavior: smooth !important;
+}
 html{
   overflow-x: hidden;
 }
@@ -571,8 +574,7 @@ align-items: center;
 .text-important{
   color: #bf2176;
   font-size: 1.3rem;
-  font-style: italic;
-  margin: 50px;
+  margin: 50px 0 50px;
 }
 
 .navigation {
@@ -602,13 +604,14 @@ align-items: center;
 	list-style: none;
 }
 .accordion__item {
-	background: #f7f7f7c7;
+  background: #0000005e;
 	border-radius: 5px;
 	margin-bottom: 5px;
 }
 .text-service{
   color: #000;
   font-weight: 700;
+  padding: 0;
 }
 /* 
 *	Стили для заголовка меню 
@@ -624,7 +627,7 @@ align-items: center;
 	font-weight: 500;
 	font-size: 1rem;
 	position: relative;
-	color: #696666;
+  color: #ffffff;
 	text-decoration: none;
 	border-radius: 5px;
 	display: block;
@@ -687,14 +690,21 @@ align-items: center;
 .accordion__link_active + ul{
     display: block;
     height: 100%;
+    background: #f3f3f3;
 }
 
 .sub-accordion__item{
   font-size: 1rem;
     color: #000;
+  
 }
 
 .sub-accordion{
   list-style: initial;
   color: #c02679; 
 }
+
+/* .accordion__link{
+  background: #696666;
+  color: #fff;
+} */
