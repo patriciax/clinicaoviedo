@@ -95,6 +95,7 @@ section{
   color: #fff;
   padding-left: 8rem;
   width: 52%;
+  z-index: 999;
 }
 
 .main-banner__text h1 {
@@ -127,6 +128,11 @@ section{
   border-radius: 10px;
   color: #fff;
 }
+.btn-custom:hover {
+  background: #f9f9f9;
+
+  color: #bf2176;
+}
 .form-control:focus {
   color: #495057;
   background-color: #fff;
@@ -140,6 +146,7 @@ section{
   bottom: -1px;
   width: 101%;
   z-index: 1;
+
 }
 
 .wave-m {
@@ -224,6 +231,10 @@ section{
   z-index: 0;
   width: 100%;
   height: auto;
+}
+
+.m-100{
+  margin-top: 100px;
 }
 
 .bg-testimonios{
