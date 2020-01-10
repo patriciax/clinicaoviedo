@@ -44,6 +44,9 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .m-100 {
+    margin-top: 0px;
+}
   .bg-testimonios {
     padding: 50px;
     padding-bottom: 10px;
